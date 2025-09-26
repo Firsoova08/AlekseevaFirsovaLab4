@@ -170,16 +170,71 @@
             //}
             //Console.WriteLine($"Число элементов больше нуля: {result}");
 
-            int[] numbers = [-1, -2, -3, 4, 5, 6, 0, 43, 56, -34, 12, 45, 102, 76, -45, 96, -4, -3, 5, 76, 6, 8, 2, 0, 5, 9];
-            int result = 0;
-            int index = 0; 
-            while (index < numbers.Length)
-            {
-                if (numbers[index] > 0)
-                    result++;
-                index++; 
-            }
-            Console.WriteLine($"Число элементов больше нуля: {result}");
+            //int[] numbers = [-1, -2, -3, 4, 5, 6, 0, 43, 56, -34, 12, 45, 102, 76, -45, 96, -4, -3, 5, 76, 6, 8, 2, 0, 5, 9];
+            //int result = 0;
+            //int index = 0; 
+            //while (index < numbers.Length)
+            //{
+            //    if (numbers[index] > 0)
+            //        result++;
+            //    index++; 
+            //}
+            //Console.WriteLine($"Число элементов больше нуля: {result}");
+
+            //int[] numbers = [-1, -2, -3, 4, 5, 6, 0, 43, 56, 34, 12, 45, 102, 76, -45, 96, -4, -3, 5, 76, 6, 8, 2, 0, 5, 9];
+            //int n = numbers.Length;
+            //int k = n / 2;
+            //int temp;// Объявление вспомогательной переменной для обмена значениями
+            //for (int i = 0; i < k; i++) {
+            //    temp = numbers[i]; // Сохранение текущего элемента в переменной temp
+            //    numbers[i] = numbers[n - i - 1]; // Замена текущего элемента на симметричный элемент с конца массива
+            //    numbers[n - i - 1] = temp; // Замена симметричного элемента на сохраненный элемент
+            //}
+            //foreach (int i in numbers)
+            //{
+            //    Console.Write($"{i} \t");
+            //} // Вывод текущего элемента массива табуляцией
+
+            // int[] nums = {54, 7, 41, 2, 4, 2, 89, 33, 5, 12};
+            // int temp;
+            //for (int i = 0; i < nums.Length - 1; i++)
+            // {
+            //    for (int j = i + 1; j < nums.Length; j++)
+            //     {
+            //        if (nums[i] > nums[j])
+            //       {
+            //          temp = nums[i];
+            //            nums[i] = nums[j];
+            //            nums[j] = temp;
+            //         }
+            //    }
+
+            // }
+            // Console.WriteLine("Вывод отсортированного массива:");
+            //for (int i = 0; i < nums.Length; i++)
+            // {
+            //     Console.WriteLine(nums[i]);
+            // }
+            //List<string> student = ["Билли", "Игорь", "Степан"];
+            //student.Add("Van"); // добавление нового элемента в список
+            //student.AddRange(["Антон", "Денис"]);
+            //student.Insert(1, "Кирилл"); // вставляет элемент item в список по индексу index
+            //student.InsertRange(1, ["Mike", "Kate"]); // вставляет коллекцию элементов
+            //                                          // начиная с индекса index
+            //student.Insert(7, "Михаил"); // вставляет элемент item в список по индексу index
+            //foreach (var person in student)
+            //{
+            //    Console.WriteLine(person);
+            //}
+            //var people = new List<string>() { "Eugene", "Mike", "Kate", "Tom", "Bob", "Sam", "Tom", "Alice" };
+            //people.RemoveAt(1); // удаляем второй элемент
+            //people.Remove("Tom"); // удаляем элемент: "Том"
+            //people.RemoveRange(1, 2);
+            //people.Clear();
+
+
+
         }
+
     }
 }
